@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p6</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+            body{background-color: #E3FFFA;}
+        #rect-green{
+            z-index: 3;
+            position: absolute;
+            left: 120px;
+            top: 0px;
+            width: 186px;
+            height: 548px;
+            background-color: #82E27E;
+        }
+        #cercle-pink{
+            z-index: 2;
+            position: absolute;
+            left: 306px;
+            bottom: 273px;
+            width: 12vw;
+            height: 12vw;
+            border-radius: 320px;
+            background-color: #E6B8AB;
+        }
+        #triangle-yellow{
+            z-index: 5;
+            position: absolute;
+            right: 60px;
+            top: 50px;
+            width: 0%;
+            height: 0%;
+            border-left: 170px solid transparent;
+            border-right: 170px solid transparent;
+            border-bottom: 310px solid #C9C816;  
+            transform: rotate(15deg);           
+        }
+        #rect-blue{
+            z-index: 1;
+            position: absolute;
+            left: 685px;
+            top: 470px;
+            width: 78vh;
+            height: 18vh;
+            background-color: #2063A9;
+            border: 6px solid #FFFFFF;
+        }
+        #cercle-black{
+            z-index: 4;
+            position: absolute;
+            right: 655px;
+            bottom: 38px;
+            width: 128px;
+            height: 128px;
+            border-radius: 128px;
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div id="rect-green"></div>
+    <div id="cercle-pink"></div>
+    <div id="triangle-yellow"></div>
+    <div id="rect-blue"></div>
+    <div id="cercle-black"></div>
+</body>
+</html>
